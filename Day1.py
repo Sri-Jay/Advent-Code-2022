@@ -1,8 +1,8 @@
 import csv
 lst = []
 sumoflist = 0
-with open(r'C:\Users\SJayalekshmi\OneDrive - Schlumberger\Documents\Advent Of Code\input.csv') as f:
-#with open(r'C:\Users\SJayalekshmi\OneDrive - Schlumberger\Documents\Advent Of Code\inputtrial.csv') as f:    
+with open('input.csv') as f:
+#with open('inputtrial.csv') as f:    
         contents = csv.reader(f)
         for row in contents:  
             if row != []:
